@@ -1,0 +1,19 @@
+/*
+#whatever a process needs to access, its domain oblidged to have a "key", certifying concrete process 
+#has access to specified os feature
+#unix_domain(name)
+#domain_has_key(name,key)
+#types of keys:
+#execute - can execute other binaries (in general)
+#access_fs([X]) domain can reach specified regions on hard drive, provided list of specific inodes domain can access
+#valid inodes are 1-6
+#1 /lib
+#2 /etc
+#3 /home
+#4 /bin
+#5 /init
+#6 /tmp
+#use_network - can use os networking ablilities
+#override_system_settings
+#sys_call(number,name,key,priority) priority is an integer from 0 to infinity, 0 specifies highest priority
+*/
