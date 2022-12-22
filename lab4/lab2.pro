@@ -1,0 +1,1 @@
+z(X):- A is cos(X*X) - sin(X*X), write(A).
